@@ -1,0 +1,9 @@
+C:\CRUDXamarin\CRUDXamarinEntities\bin\Debug\netstandard2.0\CRUDXamarinEntities.deps.json
+C:\CRUDXamarin\CRUDXamarinEntities\bin\Debug\netstandard2.0\CRUDXamarinEntities.dll
+C:\CRUDXamarin\CRUDXamarinEntities\bin\Debug\netstandard2.0\CRUDXamarinEntities.pdb
+C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.AssemblyInfoInputs.cache
+C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.AssemblyInfo.cs
+C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.csproj.CoreCompileInputs.cache
+C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.dll
+C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.pdb
+C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.csprojAssemblyReference.cache

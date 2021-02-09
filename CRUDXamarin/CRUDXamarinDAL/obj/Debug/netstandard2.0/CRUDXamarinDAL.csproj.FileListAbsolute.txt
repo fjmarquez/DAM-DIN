@@ -1,0 +1,12 @@
+C:\CRUDXamarin\CRUDXamarinDAL\bin\Debug\netstandard2.0\CRUDXamarinDAL.deps.json
+C:\CRUDXamarin\CRUDXamarinDAL\bin\Debug\netstandard2.0\CRUDXamarinDAL.dll
+C:\CRUDXamarin\CRUDXamarinDAL\bin\Debug\netstandard2.0\CRUDXamarinDAL.pdb
+C:\CRUDXamarin\CRUDXamarinDAL\bin\Debug\netstandard2.0\CRUDXamarinEntities.dll
+C:\CRUDXamarin\CRUDXamarinDAL\bin\Debug\netstandard2.0\CRUDXamarinEntities.pdb
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.csprojAssemblyReference.cache
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.AssemblyInfoInputs.cache
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.AssemblyInfo.cs
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.csproj.CoreCompileInputs.cache
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.csproj.CopyComplete
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.dll
+C:\CRUDXamarin\CRUDXamarinDAL\obj\Debug\netstandard2.0\CRUDXamarinDAL.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AqLGGeP/i6zzob36sjDI1lAudUR/5tkqch2zWu+GanEKKECINClf7OKxkXnscWlDNjk5XXFuZOjTCO+ZViJl1g==",
+  "success": true,
+  "projectFilePath": "C:\\CRUDXamarin\\CRUDXamarinBL\\CRUDXamarinBL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
