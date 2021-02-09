@@ -1,0 +1,83 @@
+Entities:
+	-clsPersona	--OK
+	-clsDepartamento	--OK
+
+DAL:
+	-Connection:
+		-clsConnectionDAL	--OK
+			-getConnection: Devuelve una conexion abierta
+			-closeConnection: Recibe una conexion y la cierra
+	-HandlerDAL:
+		-clsHandlerPersonaDAL:
+			-deletePersonaDAL(ID) return filasAfectaddas(int)	--OK
+			-updatePersonaDAL(clsPersona) return filasAfectaddas(int)	--OK
+			-createPersonaDAL(clsPersona) return filasAfectaddas(int)	--OK
+		-clsHandlerDepartamentoDAL:
+			-deleteDepartamentoDAL(ID) return filasAfectaddas(int)		--OK
+			-updateDepartamentoDAL(clsPersona) return filasAfectaddas(int)		-OK
+			-createDepartamentoDAL(clsPersona) return filasAfectaddas(int)		--OK
+	-ListadosDAL:
+		-clsListadoPersonasDAL:	--OK
+			-getListadoPersonas return list<clsPersona>
+			-getPersonaPorID return clsPersona
+			-getListadoPersonasFiltradoPorNombreYApellidos return list<clsPersona>
+		-clsListadoDepartamentosDAL:	--OK
+			-getListadoDepartamentos return list <clsDepartamento>
+			-getListadoDepartamentosFiltradoPorNombre	
+
+
+BL:
+
+	-HandlersBL:
+		-clsHandlerPersonaBL:
+			-deletePersona(ID)	--OK
+			-updatePersona(clsPersona)	--OK
+			-createPersona(clsPersona)	--OK
+		-clsHandlerDepartamentoDAL:
+			-deleteDepartamentoDAL(ID) return filasAfectaddas(int) 
+				-no permitir eliminar dpto si existen personas asignadas a ese dpto
+			-updateDepartamentoDAL(clsPersona) return filasAfectaddas(int)
+			-createDepartamentoDAL(clsPersona) return filasAfectaddas(int)
+	-ListadosBL:
+		-clsListadoPersonasBL:	--OK
+			-getListadoPersonas
+			-getPersonaPorID return clsPersona
+			-getListadoPersonasFiltradoPorNombreYApellidos return list<clsPersona>
+		-clsListadoDepartamentosBL:	--OK	
+			-getListadoDepartamentos
+			-getListadoDepartamentosFiltradoPorNombre	
+
+UI:
+	-Views:
+		-MainPage	--OK
+		-Welcome	--OK
+		-Personas -> PersonasVM	--OK
+		-Departamentos -> DepartamentosVM	--OK
+	-ViewModels:
+		-PersonasVM
+				-List <clsPersona> completo	--OK
+				-List <clsPersona> filter	--OK
+				-clsPersona seleccionada	--OK
+				-List <clsDepartamento>		--OK
+				-String txtFilter		--OK
+				-command Eliminar		--OK
+				-command Nuevo			--OK
+				-command Guardar		--OK
+				-command Filtrar		--OK
+				
+		-DepartamentosVM
+				-clsDepartamento seleccionado	--OK
+				-List <clsDepartamento> completo	--OK
+				-command Eliminar		--OK
+				-command Guardar		--OK
+				-command Actualizar		--OK	
+				-command Filtrar		--OK
+
+
+
+
+
+
+
+
+

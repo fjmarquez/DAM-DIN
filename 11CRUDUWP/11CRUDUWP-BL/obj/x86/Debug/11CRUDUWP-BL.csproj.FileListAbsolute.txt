@@ -1,0 +1,62 @@
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.dll
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.pdb
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.pri
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.dll
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-Entities.dll
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.pdb
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.pri
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-Entities.pdb
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-Entities.pri
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.csprojAssemblyReference.cache
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.csproj.CoreCompileInputs.cache
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.csproj.CopyComplete
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-DAL.pri.xml
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-Entities.pri.xml
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.dll
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.pdb
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\priconfig.xml
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\priconfig.xml.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\unfiltered.layout.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\filtered.layout.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\excluded.layout.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\resources.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\resources.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\pri.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\pri.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\qualifiers.txt
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\qualifiers.txt.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.dll
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.pdb
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.pri
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.dll
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-Entities.dll
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.pdb
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.pri
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-Entities.pdb
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-Entities.pri
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.csprojAssemblyReference.cache
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.csproj.CoreCompileInputs.cache
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.csproj.CopyComplete
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-DAL.pri.xml
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-Entities.pri.xml
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.dll
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\11CRUDUWP-BL.pdb
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\priconfig.xml
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\resources.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\pri.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\qualifiers.txt
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-BL\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

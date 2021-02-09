@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="_13ShapesE1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_13ShapesE1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    
+    <StackPanel Orientation="Vertical">
+
+        <Canvas Height="300" Width="300">
+
+            <Polygon Points="0,100 50,0 100,100" 
+        Fill="Blue" />
+
+        </Canvas>
+
+        <Canvas Height="150" Width="300">
+            
+            <Polygon Points="0,0 100,0 120,10 100,20 0,20" 
+        Fill="Red" Stroke="Red"/>
+            
+        </Canvas>
+
+        <Canvas Height="300" Width="300">
+
+            <Polygon Points="0,0 52,0 70,-45 88,0 140,0 98,30 125,80 70,50 15,80 42,30" 
+        Fill="Yellow" Stroke="red"/>
+
+        </Canvas>
+
+    </StackPanel>
+    
+</Page>
+

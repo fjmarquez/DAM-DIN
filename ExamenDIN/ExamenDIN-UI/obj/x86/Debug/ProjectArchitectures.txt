@@ -1,0 +1,5 @@
+D:\GitHub\DIN\DAM-DIN\ExamenDIN\ExamenDIN-BL\ExamenDIN-BL.csproj;x86
+D:\GitHub\DIN\DAM-DIN\ExamenDIN\ExamenDIN-DAL\ExamenDIN-DAL.csproj;x86
+D:\GitHub\DIN\DAM-DIN\ExamenDIN\ExamenDIN-Entities\ExamenDIN-Entities.csproj;x86
+D:\GitHub\DIN\DAM-DIN\ExamenDIN\ExamenDIN-Entities\ExamenDIN-Entities.csproj;x86
+D:\GitHub\DIN\DAM-DIN\ExamenDIN\ExamenDIN-UI\ExamenDIN-UI.csproj;x86

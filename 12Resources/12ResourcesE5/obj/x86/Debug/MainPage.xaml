@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="_12ResourcesE5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_12ResourcesE5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+
+        <CheckBox Content="Normal CheckBox" Margin="5"/>
+        <CheckBox Content="Special CheckBox" Margin="5">
+            <CheckBox.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Light">
+                            <SolidColorBrush x:Key="CheckBoxForegroundUnchecked"
+                        Color="Purple"/>
+                            <SolidColorBrush x:Key="CheckBoxForegroundChecked"
+                        Color="Purple"/>
+                            <SolidColorBrush x:Key="CheckBoxCheckGlyphForegroundChecked"
+                        Color="White"/>
+                            <SolidColorBrush x:Key="CheckBoxCheckBackgroundStrokeChecked"  
+                        Color="Purple"/>
+                            <SolidColorBrush x:Key="CheckBoxCheckBackgroundFillChecked"
+                        Color="Purple"/>
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+            </CheckBox.Resources>
+        </CheckBox>
+        <CheckBox Content="Normal CheckBox" Margin="5"/>
+
+    </StackPanel>
+</Page>
+

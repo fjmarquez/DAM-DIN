@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="_11_2_EventosYComandos01.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_11_2_EventosYComandos01"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <AppBarButton Name="barra" Icon="Delete" Click="{x:Bind ViewModel.btnDelete_Click}" />
+        <ListView
+            Name="lista"
+            RelativePanel.Below="barra"
+            ItemsSource="{x:Bind  ViewModel.ListadoPersonas }" 
+            SelectedItem="{x:Bind ViewModel.PersonaSeleccionada}"
+            >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Nombre}"/>
+                    </StackPanel>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </RelativePanel>
+</Page>

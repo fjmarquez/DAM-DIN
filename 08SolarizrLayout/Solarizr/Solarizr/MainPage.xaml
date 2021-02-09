@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Solarizr.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Solarizr"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush Stretch="UniformToFill" ImageSource="Assets/paneles-solares.jpg"></ImageBrush>
+    </Page.Background>
+
+    <RelativePanel VerticalAlignment="Center" >
+
+        <TextBlock x:Name="tbHello" Foreground="White" Text="Hola,"  Margin="30,0,0,0" FontSize="50" FontWeight="Bold" RelativePanel.AlignLeftWithPanel="True"></TextBlock>
+        <TextBlock x:Name="tbWelcome" Foreground="White" Text="bienvenido a Solarizr" Margin="30,0,0,0" FontSize="30" RelativePanel.AlignLeftWithPanel="True" RelativePanel.Below="tbHello"></TextBlock>
+        <TextBox x:Name="tbUsuario" Margin="30,10,0,0" PlaceholderText="Usuario" RelativePanel.Below="tbWelcome" RelativePanel.AlignLeftWith="tbWelcome" RelativePanel.AlignRightWith="tbWelcome"></TextBox>
+        <PasswordBox x:Name="tbContraseña" Margin="30,10,0,0" PlaceholderText="Contraseña" RelativePanel.Below="tbUsuario" RelativePanel.AlignLeftWith="tbWelcome" RelativePanel.AlignRightWith="tbWelcome"></PasswordBox>
+        <Button x:Name="btnLogin" Click="btnLogin_Click" Foreground="White" BorderBrush="White" HorizontalAlignment="Center" Content="Entrar" Margin="30,25,0,0" FontSize="25" RelativePanel.AlignLeftWithPanel="True" RelativePanel.Below="tbContraseña"></Button>
+        
+    </RelativePanel>
+</Page>

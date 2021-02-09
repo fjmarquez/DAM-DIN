@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="_08LayoutsE1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_08LayoutsE1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Border CornerRadius="20"
+                BorderBrush="Blue"
+                Background="LightYellow"
+                BorderThickness="10"
+                Padding="8">
+        <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center">
+
+            <Button
+                Content="Hello World (With padding)"
+                BorderThickness="5"
+                BorderBrush="black"
+                FontSize="36"
+                Padding="20">
+
+            </Button>
+            <StackPanel
+                HorizontalAlignment="Center">
+
+                <Button
+                Content="Boton 2"
+                FontSize="36">
+                </Button>
+
+                <Button
+                Content="Boton 3"
+                FontSize="36">
+                </Button>
+            </StackPanel>
+            <StackPanel
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                <Button
+                    Content="Another hello"
+                    FontSize="36">
+                </Button>
+            </StackPanel>
+            <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center">
+                <TextBlock
+                    Text="Nombre: "
+                    FontSize="36">
+                    
+                </TextBlock>
+                <TextBox
+                    FontSize="36"
+                    MinWidth="300">
+
+                </TextBox>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Page>

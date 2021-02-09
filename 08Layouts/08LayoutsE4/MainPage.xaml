@@ -1,0 +1,136 @@
+﻿<Page
+    x:Class="_08LayoutsE4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_08LayoutsE4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+
+        <Border x:Name="e1" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                Margin="10"
+                >
+            <TextBlock
+                TextWrapping="Wrap"
+                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                Margin="5"               
+                >
+                
+            </TextBlock>
+            
+        </Border>
+
+        <Border x:Name="e2" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.Below="e1"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                Margin="10"
+                >
+            <TextBlock 
+                TextWrapping="Wrap"
+                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin risus tempus, semper nisl volutpat, tincidunt dui. Maecenas dignissim turpis mauris, quis mollis eros mollis auctor. Nam ultrices vulputate nibh, nec consequat massa porttitor vel."
+                Margin="5"
+                >
+
+            </TextBlock>
+
+        </Border>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>                
+            </Grid.RowDefinitions>
+            
+            <VariableSizedWrapGrid Grid.Column="0" Orientation="Horizontal">
+                <Rectangle x:Name="red" Fill="Red" Height="150" Width="150" Margin="10"/>
+                <Rectangle x:Name="blue" Fill="BlueViolet" Height="150" Width="150" Margin="10"/>
+                <Rectangle x:Name="orange" Fill="Orange" Height="150" Width="150" Margin="10"/>
+            </VariableSizedWrapGrid>
+
+            <StackPanel Orientation="Vertical" Grid.Column="1">
+                <Border x:Name="e3" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.Below="e1"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                Margin="10"
+                >
+                    <TextBlock 
+                    TextWrapping="Wrap"
+                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    Margin="5"
+                    >
+                    </TextBlock>
+                </Border>
+
+                <Border x:Name="e4" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.Below="e1"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                Margin="10"
+                >
+                    <TextBlock 
+                    TextWrapping="Wrap"
+                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin risus tempus, semper nisl volutpat, tincidunt dui."
+                    Margin="5"
+                    >
+                    </TextBlock>
+                </Border>
+
+                <Border x:Name="e5" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.Below="e1"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                Margin="10"
+                >
+                    <TextBlock 
+                    TextWrapping="Wrap"
+                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    Margin="5"
+                    >
+                    </TextBlock>
+                </Border>
+
+                <Border x:Name="e6" 
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.Below="e1"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                Margin="10"
+                >
+                    <TextBlock 
+                    TextWrapping="Wrap"
+                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin risus tempus, semper nisl volutpat, tincidunt dui."
+                    Margin="5"
+                    >
+                    </TextBlock>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        
+            
+        
+        
+
+
+    </StackPanel>
+</Page>

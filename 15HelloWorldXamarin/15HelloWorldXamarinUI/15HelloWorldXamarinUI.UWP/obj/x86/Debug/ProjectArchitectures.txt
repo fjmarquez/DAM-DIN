@@ -1,0 +1,1 @@
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI.UWP\15HelloWorldXamarinUI.UWP.csproj;x86

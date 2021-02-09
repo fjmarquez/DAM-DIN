@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-BL\\11CRUDUWP-BL.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-BL\\11CRUDUWP-BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-BL\\11CRUDUWP-BL.csproj",
+        "projectName": "11CRUDUWP-BL",
+        "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-BL\\11CRUDUWP-BL.csproj",
+        "packagesPath": "C:\\Users\\fjmarquez\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fjmarquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.10240"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-DAL\\11CRUDUWP-DAL.csproj": {
+                "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-DAL\\11CRUDUWP-DAL.csproj"
+              },
+              "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj": {
+                "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.10240": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-DAL\\11CRUDUWP-DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-DAL\\11CRUDUWP-DAL.csproj",
+        "projectName": "11CRUDUWP-DAL",
+        "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-DAL\\11CRUDUWP-DAL.csproj",
+        "packagesPath": "C:\\Users\\fjmarquez\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fjmarquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj": {
+                "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj",
+        "projectName": "11CRUDUWP-Entities",
+        "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\11CRUDUWP-Entities.csproj",
+        "packagesPath": "C:\\Users\\fjmarquez\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DIN\\DAM-DIN\\11CRUDUWP\\11CRUDUWP-Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fjmarquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.10240"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.10240": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

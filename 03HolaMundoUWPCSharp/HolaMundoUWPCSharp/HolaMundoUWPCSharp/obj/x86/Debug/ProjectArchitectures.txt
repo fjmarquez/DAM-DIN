@@ -1,0 +1,1 @@
+C:\Users\Francisco J. Márquez\GitHub\DIN\03HolaMundoUWPCSharp\HolaMundoUWPCSharp\HolaMundoUWPCSharp\HolaMundoUWPCSharp.csproj;x86

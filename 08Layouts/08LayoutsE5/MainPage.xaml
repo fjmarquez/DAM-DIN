@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="_08LayoutsE5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_08LayoutsE5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Orientation="Vertical" MaxWidth="300" HorizontalAlignment="Left">
+
+        <StackPanel Orientation="Horizontal">
+        <AppBarButton x:Name="btnAccept" Icon="Accept" />
+        <AppBarButton x:Name="btnDelete" Icon="Delete" />
+        <AppBarButton x:Name="btnDownload" Icon="Download" />
+        <AppBarButton x:Name="btnSearch" Icon="Find" />
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+            <ScrollViewer MaxHeight="420" MaxWidth="300"  VerticalScrollBarVisibility="Auto">
+                <ListView>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                    <x:String>Fernando Galiana</x:String>
+                </ListView>
+            </ScrollViewer>
+            <StackPanel   Orientation="Horizontal" HorizontalAlignment="Right">
+                <AppBarButton x:Name="btnAdd" Icon="Add" Label="Añadir"></AppBarButton>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <AppBarButton x:Name="btnLeft" Icon="Back" />
+            <AppBarButton x:Name="btnRight" Icon="Forward" />
+        </StackPanel>
+        
+    </StackPanel>
+</Page>

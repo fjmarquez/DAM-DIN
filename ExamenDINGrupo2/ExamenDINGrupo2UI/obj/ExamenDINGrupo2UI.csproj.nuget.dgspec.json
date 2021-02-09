@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2UI\\ExamenDINGrupo2UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2BL\\ExamenDINGrupo2BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2BL\\ExamenDINGrupo2BL.csproj",
+        "projectName": "ExamenDINGrupo2BL",
+        "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2BL\\ExamenDINGrupo2BL.csproj",
+        "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2DAL\\ExamenDINGrupo2DAL.csproj": {
+                "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2DAL\\ExamenDINGrupo2DAL.csproj"
+              },
+              "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj": {
+                "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2DAL\\ExamenDINGrupo2DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2DAL\\ExamenDINGrupo2DAL.csproj",
+        "projectName": "ExamenDINGrupo2DAL",
+        "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2DAL\\ExamenDINGrupo2DAL.csproj",
+        "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj": {
+                "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj",
+        "projectName": "ExamenDINGrupo2Entities",
+        "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj",
+        "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2UI\\ExamenDINGrupo2UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2UI\\ExamenDINGrupo2UI.csproj",
+        "projectName": "ExamenDINGrupo2UI",
+        "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2UI\\ExamenDINGrupo2UI.csproj",
+        "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2BL\\ExamenDINGrupo2BL.csproj": {
+                "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2BL\\ExamenDINGrupo2BL.csproj"
+              },
+              "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj": {
+                "projectPath": "C:\\Users\\Francisco J. Márquez\\GitHub\\DIN\\ExamenDINGrupo2\\ExamenDINGrupo2Entities\\ExamenDINGrupo2Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

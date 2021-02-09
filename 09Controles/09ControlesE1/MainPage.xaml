@@ -1,0 +1,113 @@
+﻿<Page
+    
+    
+    x:Class="_09ControlesE1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_09Controles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <!--CUADRICULA 2-->
+        <RelativePanel Grid.Column="1" Grid.Row="0">
+
+            <StackPanel RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+
+                <RadioButton x:Name="r1" Content="No" />
+                <RadioButton x:Name="r2" Content="&#10004; Yes"/>
+                <RadioButton Name="r3" Content="Other"/>
+                <Button Name="btnRadio" Content="Go!"></Button>
+
+            </StackPanel>
+
+            <Button Click="btnTooltip_Click" Name="btnTooltip" VerticalAlignment="Top" HorizontalAlignment="Right" Content="Other page!" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True">
+                <ToolTipService.ToolTip>
+                    <ToolTip Content="Go to page 2" 
+                    HorizontalOffset="20" VerticalOffset="30"/>
+                </ToolTipService.ToolTip>
+            </Button>
+
+            <TextBox Name="tbResize" Width="auto" Height="auto" IsSpellCheckEnabled="True" TextWrapping="Wrap" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" AcceptsReturn="True" ></TextBox>
+
+            <PasswordBox x:Name="passwordBox" Width="auto" MaxLength="16" HorizontalAlignment="Right" VerticalAlignment="Bottom" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+        </RelativePanel>
+
+        <!--CUADRICULA 1-->
+        <RelativePanel Grid.Row="0" Grid.Column="0">
+            <Pivot x:Name="rootPivot" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                <PivotItem Header="Deportes">
+                    <StackPanel>
+                        <CheckBox Content="Futbol"></CheckBox>
+                        <CheckBox Content="Baloncesto"></CheckBox>
+                        <CheckBox Content="Tenis"></CheckBox>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="Meteorologia">
+                    <StackPanel>
+                        <CheckBox Content="Soleado"></CheckBox>
+                        <CheckBox Content="Nublado"></CheckBox>
+                        <CheckBox Content="Lluvioso"></CheckBox>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="Musica">
+                    <StackPanel>
+                        <CheckBox Content="Coldplay"></CheckBox>
+                        <CheckBox Content="Imagine Dragons"></CheckBox>
+                        <CheckBox Content="Rag'n"></CheckBox>
+                    </StackPanel>
+                </PivotItem>
+            </Pivot>
+        </RelativePanel>
+
+        <!--CUADRICULA 3-->
+        <RelativePanel Grid.Column="0" Grid.Row="1">
+            <ListBox x:Name="lbItems" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True" Height="120" MaxWidth="200">
+                <ListBoxItem>ListBox Item #1</ListBoxItem>
+                <ListBoxItem>ListBox Item #2</ListBoxItem>
+                <ListBoxItem>ListBox Item #3</ListBoxItem>
+                <ListBoxItem>ListBox Item #4</ListBoxItem>
+            </ListBox>
+
+            <ComboBox RelativePanel.RightOf="lbItems" RelativePanel.AlignTopWithPanel="True">
+                <ComboBoxItem>Hola Mundo</ComboBoxItem>
+                <ComboBoxItem>Hello World</ComboBoxItem>
+            </ComboBox>
+
+            <CalendarView Name="calendarview" Height="auto" Width="auto" RelativePanel.Below="lbItems" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True"/>
+
+            <CalendarDatePicker RelativePanel.AlignTopWith="calendarview" RelativePanel.RightOf="calendarview"></CalendarDatePicker>
+        </RelativePanel>
+
+        <!--CUADRICULA 4-->
+
+        <RelativePanel Grid.Column="1" Grid.Row="1">
+            <Slider Minimum="0" Maximum="100" x:Name="slider"  RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True"></Slider>
+
+            <ProgressBar MinHeight="20" MaxHeight="25" MinWidth="130" MaxWidth="150" Value="{Binding Path=Value, ElementName=slider}" x:Name="pbSlider" RelativePanel.Below="slider" RelativePanel.AlignRightWithPanel="True"></ProgressBar>
+
+            <DatePicker RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True"></DatePicker>
+
+
+        </RelativePanel>
+
+
+    </Grid>
+
+
+</Page>

@@ -1,0 +1,5 @@
+C:\Users\Francisco J. Márquez\GitHub\DIN\ExamenDINGrupo2\ExamenDINGrupo2BL\ExamenDINGrupo2BL.csproj;x86
+C:\Users\Francisco J. Márquez\GitHub\DIN\ExamenDINGrupo2\ExamenDINGrupo2DAL\ExamenDINGrupo2DAL.csproj;x86
+C:\Users\Francisco J. Márquez\GitHub\DIN\ExamenDINGrupo2\ExamenDINGrupo2Entities\ExamenDINGrupo2Entities.csproj;x86
+C:\Users\Francisco J. Márquez\GitHub\DIN\ExamenDINGrupo2\ExamenDINGrupo2Entities\ExamenDINGrupo2Entities.csproj;x86
+C:\Users\Francisco J. Márquez\GitHub\DIN\ExamenDINGrupo2\ExamenDINGrupo2UI\ExamenDINGrupo2UI.csproj;x86

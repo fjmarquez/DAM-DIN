@@ -1,0 +1,27 @@
+Capa DAL:
+	-Connection:
+		-clsConnection
+	-ListadosDAL:
+		-clsListadoActoresDAL: return list<actor>
+
+Capa BL:
+	-ListadosBL:
+		-clsListadoActoresBL: return list<actor>
+
+Entidadades:
+	-Actor
+
+UI:
+	-ViewModels:
+		-ActorVM:
+			-listaCompletaActores: list<actor>
+			-listaActoresPreguntas: list<actor>
+			-listaActoresPartida: list <actor>
+			-actorCorrecto: actor
+			-nAciertos: int
+			-nErrores: int
+			-feedbackJugada
+
+	-Views:
+		-JuegoActores.xaml
+			-JuegoActores.xaml.cs -> Objeto ActorVM inicializado en el constructor

@@ -1,0 +1,128 @@
+﻿<Page
+    x:Class="_14AnimationsE4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_14AnimationsE4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
+
+    <Page.Resources>
+        
+        <Storyboard x:Name="animacionEstrellas">
+            <DoubleAnimation 
+                EnableDependentAnimation="True"
+                Storyboard.TargetName="estrellas1"
+                Storyboard.TargetProperty="(Canvas.Top)"
+                RepeatBehavior="1"
+                To="1200" BeginTime="0:0:0" Duration="0:0:3"></DoubleAnimation>
+            <DoubleAnimation 
+                EnableDependentAnimation="True"
+                Storyboard.TargetName="estrellas2"
+                Storyboard.TargetProperty="(Canvas.Top)"
+                RepeatBehavior="1"
+                To="1200" BeginTime="0:0:3" Duration="0:0:6"></DoubleAnimation>
+            <DoubleAnimation 
+                EnableDependentAnimation="True"
+                Storyboard.TargetName="estrellas3"
+                Storyboard.TargetProperty="(Canvas.Top)"
+                RepeatBehavior="1"
+                To="1200" BeginTime="0:0:6" Duration="0:0:9"></DoubleAnimation>
+            <DoubleAnimation 
+                EnableDependentAnimation="True"
+                Storyboard.TargetName="estrellas4"
+                Storyboard.TargetProperty="(Canvas.Top)"
+                RepeatBehavior="1"
+                To="1200" BeginTime="0:0:0" Duration="0:0:6"></DoubleAnimation>
+            
+        </Storyboard>
+
+        
+
+    </Page.Resources>
+
+    <Canvas Background="Black" RenderTransformOrigin="0.523,0.5">
+
+        <Image Source="Assets/halcon.png" x:Name="halcon" Height="197" Width="151" Canvas.Left="565" Canvas.Top="262"></Image>
+
+        <Canvas x:Name="estrellas1">
+            <Ellipse Width="8" Height="8" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="88"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="10" Height="10" Fill="LightBlue" Canvas.Top="-250" Opacity="0.5" Canvas.Left="500"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-550" Opacity="0.2" Canvas.Left="750"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="980"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="25"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="850"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="710"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-350" Opacity="0.5" Canvas.Left="900"></Ellipse>
+            <Ellipse Width="10" Height="10" Fill="LightBlue" Canvas.Top="-450" Opacity="0.5" Canvas.Left="1110"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-150" Opacity="0.5" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-350" Opacity="0.2" Canvas.Left="400"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="600"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="800"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-250" Opacity="0.8" Canvas.Left="1100"></Ellipse>
+        </Canvas>
+        <Canvas x:Name="estrellas2">
+            <Ellipse Width="6" Height="6" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="25"></Ellipse>
+            <Ellipse Width="10" Height="10" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="850"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="710"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-350" Opacity="0.5" Canvas.Left="900"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-450" Opacity="0.5" Canvas.Left="1110"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-150" Opacity="0.5" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-350" Opacity="0.2" Canvas.Left="400"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="600"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="800"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-250" Opacity="0.8" Canvas.Left="1100"></Ellipse>
+        </Canvas>
+        <Canvas x:Name="estrellas3">
+            <Ellipse Width="10" Height="10" Fill="LightBlue" Canvas.Top="-150" Opacity="0.5" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-350" Opacity="0.2" Canvas.Left="400"></Ellipse>
+            <Ellipse Width="6" Height="6" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="600"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="800"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-250" Opacity="0.8" Canvas.Left="1100"></Ellipse>
+            <Ellipse Width="10" Height="10" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="88"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-250" Opacity="0.5" Canvas.Left="500"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-550" Opacity="0.2" Canvas.Left="750"></Ellipse>
+            <Ellipse Width="8" Height="8" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="980"></Ellipse>
+        </Canvas>
+        <Canvas x:Name="estrellas4">
+            <Ellipse Width="10" Height="10" Fill="LightBlue" Canvas.Top="-150" Opacity="0.5" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-350" Opacity="0.2" Canvas.Left="400"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="600"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="800"></Ellipse>
+            <Ellipse Width="6" Height="6" Fill="LightBlue" Canvas.Top="-250" Opacity="0.8" Canvas.Left="1100"></Ellipse>
+            <Ellipse Width="9" Height="9" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="88"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="8" Height="8" Fill="LightBlue" Canvas.Top="-250" Opacity="0.5" Canvas.Left="500"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-550" Opacity="0.2" Canvas.Left="750"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="980"></Ellipse>
+            <Ellipse Width="6" Height="6" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="25"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="850"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="710"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-350" Opacity="0.5" Canvas.Left="900"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-450" Opacity="0.5" Canvas.Left="1110"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-150" Opacity="0.5" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-350" Opacity="0.2" Canvas.Left="400"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="600"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="800"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-250" Opacity="0.8" Canvas.Left="1100"></Ellipse>
+            <Ellipse Width="8" Height="8" Fill="LightBlue" Canvas.Top="-250" Opacity="0.5" Canvas.Left="500"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-550" Opacity="0.2" Canvas.Left="750"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="980"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-150" Opacity="0.2" Canvas.Left="25"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-50" Opacity="0.5" Canvas.Left="850"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="710"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-350" Opacity="0.5" Canvas.Left="900"></Ellipse>
+            <Ellipse Width="7" Height="7" Fill="LightBlue" Canvas.Top="-450" Opacity="0.5" Canvas.Left="1110"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-150" Opacity="0.5" Canvas.Left="200"></Ellipse>
+            <Ellipse Width="2" Height="2" Fill="LightBlue" Canvas.Top="-350" Opacity="0.2" Canvas.Left="400"></Ellipse>
+            <Ellipse Width="4" Height="4" Fill="LightBlue" Canvas.Top="-150" Opacity="0.7" Canvas.Left="600"></Ellipse>
+            <Ellipse Width="5" Height="5" Fill="LightBlue" Canvas.Top="-250" Opacity="0.2" Canvas.Left="800"></Ellipse>
+            <Ellipse Width="3" Height="3" Fill="LightBlue" Canvas.Top="-250" Opacity="0.8" Canvas.Left="1100"></Ellipse>
+        </Canvas>
+       
+    </Canvas>
+</Page>

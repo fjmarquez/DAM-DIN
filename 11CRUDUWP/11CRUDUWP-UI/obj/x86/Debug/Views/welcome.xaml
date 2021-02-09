@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="_11CRUDUWP_UI.Views.welcome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_11CRUDUWP_UI.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel Background="CadetBlue">
+
+        <TextBlock x:ConnectionId='2' x:Name="title" FontSize="25" Margin="25,25,25,25" FontWeight="Bold" Foreground="White" Text="CRUD Personas - Sistemas de Gestión Empresarial"></TextBlock>
+
+        <TextBlock x:ConnectionId='3' x:Name="subtitle" RelativePanel.Below="title" FontSize="25"  Margin="25,0,25,0" FontWeight="Bold" Foreground="White" Text="Ejercicio 4 Unidad 11"></TextBlock>
+
+    </RelativePanel>
+</Page>
+

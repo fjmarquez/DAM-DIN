@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="_10MVVMBinding01.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_10MVVMBinding01"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        
+        <Slider x:ConnectionId='1' VerticalAlignment="Top" x:Name="slider" Maximum="100" Minimum="1"/>
+        <TextBlock HorizontalAlignment="Left" Text="Texto" FontSize="{Binding ElementName=text, Path=Text, Mode=OneWay}"  TextWrapping="Wrap" VerticalAlignment="Center" Margin="0,25,0,0"/>
+        <TextBox x:ConnectionId='2' HorizontalAlignment="Left"                                              x:Name="text" Margin="0,25,0,0" Text="{Binding ElementName=slider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </StackPanel>
+</Page>
+

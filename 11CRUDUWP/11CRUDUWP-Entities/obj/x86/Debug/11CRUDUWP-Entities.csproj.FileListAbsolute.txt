@@ -1,0 +1,44 @@
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.dll
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.pdb
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.pri
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.csproj.CoreCompileInputs.cache
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.dll
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.pdb
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\priconfig.xml
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\priconfig.xml.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\unfiltered.layout.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\filtered.layout.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\excluded.layout.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\resources.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\resources.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\pri.resfiles
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\pri.resfiles.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\qualifiers.txt
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\qualifiers.txt.intermediate
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.csprojAssemblyReference.cache
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.dll
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.pdb
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.pri
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.csproj.CoreCompileInputs.cache
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.dll
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.pdb
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\priconfig.xml
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\resources.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\pri.resfiles
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\qualifiers.txt
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Francisco J. Márquez\GitHub\DIN\11CRUDUWP\11CRUDUWP-Entities\obj\x86\Debug\11CRUDUWP-Entities.csprojAssemblyReference.cache

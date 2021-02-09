@@ -1,0 +1,14 @@
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\bin\Debug\netstandard2.0\15HelloWorldXamarinUI.deps.json
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\bin\Debug\netstandard2.0\15HelloWorldXamarinUI.dll
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\bin\Debug\netstandard2.0\ref\15HelloWorldXamarinUI.dll
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\bin\Debug\netstandard2.0\15HelloWorldXamarinUI.pdb
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\15HelloWorldXamarinUI.csprojAssemblyReference.cache
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\15HelloWorldXamarinUI.AssemblyInfoInputs.cache
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\15HelloWorldXamarinUI.AssemblyInfo.cs
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\15HelloWorldXamarinUI.csproj.CoreCompileInputs.cache
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\15HelloWorldXamarinUI.dll
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\ref\15HelloWorldXamarinUI.dll
+D:\GitHub\DIN\DAM-DIN\15HelloWorldXamarin\15HelloWorldXamarinUI\15HelloWorldXamarinUI\obj\Debug\netstandard2.0\15HelloWorldXamarinUI.pdb
