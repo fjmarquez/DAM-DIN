@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IC5vU2PymIpc/gpEf5b9rXN1FihPMCsJ9PnxzMYrPrXMGHbWhJaLE9J5NowyDxzIM1GOBUu0P0I/+lelfdWlJw==",
+  "dgSpecHash": "DLvTmvtbyfepnQfCY9e+3KebEnenzXIjpuBaAfbTptRWlaHyrWNjtiH3030ku6x9QN+IEsEmtEGHuwmNGJ5sSA==",
   "success": true,
-  "projectFilePath": "C:\\CRUDXamarin\\CRUDXamarinEntities\\CRUDXamarinEntities.csproj",
+  "projectFilePath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinEntities\\CRUDXamarinEntities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\fjmarquez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fjmarquez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

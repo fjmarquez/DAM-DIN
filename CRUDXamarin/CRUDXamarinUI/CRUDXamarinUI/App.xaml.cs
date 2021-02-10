@@ -11,7 +11,7 @@ namespace CRUDXamarinUI
         {
             InitializeComponent();
 
-            MainPage = new MainMD();
+            MainPage = new NavigationPage(new MainMD());
         }
 
         protected override void OnStart()

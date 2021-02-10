@@ -1,5 +1,6 @@
 ﻿using CRUDXamarinBL.ListadosBL;
 using CRUDXamarinEntities;
+using CRUDXamarinUI.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CRUDXamarinUI.Models
 {
-    public class PersonasVM : INotifyPropertyChanged
+    public class PersonasListadoVM : INotifyPropertyChanged
     {
 
         #region Atributos privados
@@ -22,6 +23,7 @@ namespace CRUDXamarinUI.Models
 
         #region Propiedades publicas
 
+        //Propiedad publica de listadoPersonas
         public ObservableCollection<clsPersona> ListadoPersonas
         {
             get
@@ -30,6 +32,7 @@ namespace CRUDXamarinUI.Models
             }
         }
 
+        //Propiedad publica de personaSeleccionada
         public clsPersona PersonaSeleccionada
         {
             get
@@ -40,24 +43,22 @@ namespace CRUDXamarinUI.Models
             {
                 if (this.personaSeleccionada != value && value != null)
                 {
-
                     this.personaSeleccionada = value;
+                    //Navegamos hacia la vista FormularioPersonas
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new FormularioPersonas(personaSeleccionada));
 
+                    this.personaSeleccionada = null;
                 }
             }
         }
         #endregion
 
 
-        #region Getters y Setters
-
-
-        #endregion
-
-
         #region Constructores
-
-        public PersonasVM()
+        /// <summary>
+        /// Constructor por defecto de la clase PersonasListadoVM
+        /// </summary>
+        public PersonasListadoVM()
         {
             onInit();
 

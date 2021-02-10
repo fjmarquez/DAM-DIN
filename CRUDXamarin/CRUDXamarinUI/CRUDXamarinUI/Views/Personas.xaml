@@ -4,25 +4,23 @@
              x:Class="CRUDXamarinUI.Views.Personas">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Personas" FontSize="15"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-
+            
             <ListView x:Name="listaPersonas" 
                       ItemsSource="{Binding ListadoPersonas, Mode=OneWay}"
-                      ItemSelected="listaPersonas_ItemSelected"
+                      SelectedItem="{Binding PersonaSeleccionada}"
                       >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding Nombre}" TextColor="black" FontSize="15" Padding="10,5,5,5" />
-                                <Label Text="{Binding Apellidos}" TextColor="black" FontSize="15" Padding="0,5,10,5" />
+                                <Label Text="{Binding Apellidos}" TextColor="black" FontSize="15" Padding="0,5,0,5" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

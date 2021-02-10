@@ -8506,18 +8506,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\": {},
+    "C:\\Users\\fjmarquez\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.UWP\\CRUDXamarinUI.UWP.csproj",
+      "projectUniqueName": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.UWP\\CRUDXamarinUI.UWP.csproj",
       "projectName": "CRUDXamarinUI.UWP",
-      "projectPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.UWP\\CRUDXamarinUI.UWP.csproj",
-      "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
-      "outputPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.UWP\\obj\\",
+      "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.UWP\\CRUDXamarinUI.UWP.csproj",
+      "packagesPath": "C:\\Users\\fjmarquez\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8525,7 +8525,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fjmarquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8539,8 +8539,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj": {
-              "projectPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj"
+            "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj": {
+              "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj"
             }
           }
         }

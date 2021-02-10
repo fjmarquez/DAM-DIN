@@ -7,3 +7,12 @@ C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.
 C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.dll
 C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.pdb
 C:\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.csprojAssemblyReference.cache
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\bin\Debug\netstandard2.0\CRUDXamarinEntities.deps.json
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\bin\Debug\netstandard2.0\CRUDXamarinEntities.dll
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\bin\Debug\netstandard2.0\CRUDXamarinEntities.pdb
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.csprojAssemblyReference.cache
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.AssemblyInfoInputs.cache
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.AssemblyInfo.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.csproj.CoreCompileInputs.cache
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.dll
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinEntities\obj\Debug\netstandard2.0\CRUDXamarinEntities.pdb

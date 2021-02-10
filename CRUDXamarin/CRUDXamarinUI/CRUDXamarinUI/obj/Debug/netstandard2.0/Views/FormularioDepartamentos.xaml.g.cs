@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CRUDXamarinUI.Views.App.xaml", "Views/App.xaml", typeof(global::CRUDXamarinUI.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CRUDXamarinUI.Views.FormularioDepartamentos.xaml", "Views/FormularioDepartamentos.xaml", typeof(global::CRUDXamarinUI.Views.FormularioDepartamentos))]
 
-namespace CRUDXamarinUI {
+namespace CRUDXamarinUI.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\App.xaml")]
-    public partial class App : global::Xamarin.Forms.Application {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\FormularioDepartamentos.xaml")]
+    public partial class FormularioDepartamentos : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(App));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FormularioDepartamentos));
         }
     }
 }

@@ -8,6 +8,7 @@
             <Setter Property="HorizontalTextAlignment" Value="End"></Setter>
             <Setter Property="FontSize" Value="16"></Setter>
             <Setter Property="Margin" Value="10,10,10,10"></Setter>
+            <Setter Property="FontAttributes" Value="Bold"></Setter>
         </Style>
         <Style TargetType="Label" x:Key="LabelsFormulario2">
             <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
@@ -18,6 +19,12 @@
             <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
             <Setter Property="FontSize" Value="16"></Setter>
             <Setter Property="Margin" Value="10,5,10,10"></Setter>
+        </Style>
+        <Style TargetType="Picker" x:Key="PickerFormulario">
+            <Setter Property="Margin" Value="10,0,0,0"></Setter>
+        </Style>
+        <Style TargetType="DatePicker" x:Key="DatePickerFormulario">
+            <Setter Property="Margin" Value="10,0,0,0"></Setter>
         </Style>
     </ContentPage.Resources>
     
@@ -54,10 +61,10 @@
             <Label Text="IDUsuario" Grid.Column="1" Grid.Row="0" Style="{StaticResource LabelsFormulario2}"></Label>
             <Entry Placeholder="Nombre..." x:Uid="entryName" Grid.Column="1" Grid.Row="1" Style="{StaticResource EntryFormulario}"></Entry>
             <Entry Placeholder="Apellidos..." x:Uid="entryApellidos" Grid.Column="1" Grid.Row="2" Style="{StaticResource EntryFormulario}"></Entry>
-            <DatePicker x:Uid="datepickerFechaNacimiento" Grid.Column="1" Grid.Row="3"></DatePicker>
+            <DatePicker x:Uid="datepickerFechaNacimiento" Grid.Column="1" Grid.Row="3" Style="{StaticResource DatePickerFormulario}"></DatePicker>
             <Entry Placeholder="Direccion..." x:Uid="entryDireccion" Grid.Column="1" Grid.Row="4" Style="{StaticResource EntryFormulario}"></Entry>
             <Entry Keyboard="Numeric" Placeholder="Telefono..." x:Uid="entryTelefono" Grid.Column="1" Grid.Row="5" Style="{StaticResource EntryFormulario}"></Entry>
-            <Picker x:Uid="picker" Grid.Column="1" Grid.Row="6">
+            <Picker x:Uid="picker" Grid.Column="1" Grid.Row="6" Style="{StaticResource PickerFormulario}">
                 <Picker.Items>
                     <x:String>Hola</x:String>
                     <x:String>Adios</x:String>

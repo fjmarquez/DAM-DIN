@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CRUDXamarinBL.ListadosBL
 {
-    public class clListadosDepartamentosBL
+    public class clsListadosDepartamentosBL
     {
 
         /// <summary>

@@ -17,22 +17,21 @@ namespace CRUDXamarinUI.Views
         public Personas()
         {
             InitializeComponent();
-            BindingContext = new PersonasVM();
+            BindingContext = new PersonasListadoVM();
         }
 
-        private async Task navigate(object sender, SelectedItemChangedEventArgs e)
+        /// <summary>
+        /// Esta funcion OnAppearing se ejecutara cuando la vista vuelva del segundo plano
+        /// </summary>
+        protected override void OnAppearing()
         {
+            base.OnAppearing();
+            listaPersonas.SelectedItem = null;
 
-            clsPersona personaSeleccionada = (clsPersona)e.SelectedItem;
-
-            await Navigation.PushAsync(new FormularioPersonas(personaSeleccionada));
+            //llamar a oninit de personaslistadoVM para refrescar la lista
         }
 
-        private void listaPersonas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
 
-            navigate(sender, e);
 
-        }
     }
 }
