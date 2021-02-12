@@ -2,12 +2,12 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Views\MainMDMasterMenuItem.cs">
+    <Compile Update="Views\Menu MD\MainMDMasterMenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="Views\MainMDMaster.xaml">
+    <EmbeddedResource Update="Views\Menu MD\MainMDMaster.xaml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

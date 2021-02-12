@@ -36,13 +36,7 @@ D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\bin\Debug\netstand
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\bin\Debug\netstandard2.0\CRUDXamarinEntities.pdb
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\bin\Debug\netstandard2.0\CRUDXamarinDAL.pdb
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\CRUDXamarinUI.csprojAssemblyReference.cache
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Departamentos.xaml.g.cs
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\FormularioPersonas.xaml.g.cs
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\MainMD.xaml.g.cs
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\MainMDDetail.xaml.g.cs
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\MainMDMaster.xaml.g.cs
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Personas.xaml.g.cs
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\CRUDXamarinUI.AssemblyInfoInputs.cache
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\CRUDXamarinUI.AssemblyInfo.cs
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\CRUDXamarinUI.csproj.CoreCompileInputs.cache
@@ -52,4 +46,10 @@ D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstand
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\ref\CRUDXamarinUI.dll
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\CRUDXamarinUI.pdb
 D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\FormularioDepartamentos.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Departamentos\Departamentos.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Departamentos\FormularioDepartamentos.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Menu MD\MainMD.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Menu MD\MainMDDetail.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Menu MD\MainMDMaster.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Personas\FormularioPersonas.xaml.g.cs
+D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI\obj\Debug\netstandard2.0\Views\Personas\Personas.xaml.g.cs

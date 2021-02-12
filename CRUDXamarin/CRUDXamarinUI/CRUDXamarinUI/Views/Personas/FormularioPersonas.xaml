@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDXamarinUI.Views.FormularioPersonas"
+             xmlns:viewmodelFormulario="clr-namespace:CRUDXamarinUI.Models.Personas">
+    
+    <ContentPage.BindingContext>
+        <viewmodelFormulario:FormularioPersonasVM/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="LabelsFormulario1">
+            <Setter Property="HorizontalTextAlignment" Value="End"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+            <Setter Property="FontAttributes" Value="Bold"></Setter>
+        </Style>
+        <Style TargetType="Label" x:Key="LabelsFormulario2">
+            <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+        </Style>
+        <Style TargetType="Label" x:Key="EntryFormulario">
+            <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10,5,10,10"></Setter>
+        </Style>
+        <Style TargetType="Picker" x:Key="PickerFormulario">
+            <Setter Property="Margin" Value="10,0,0,0"></Setter>
+        </Style>
+        <Style TargetType="DatePicker" x:Key="DatePickerFormulario">
+            <Setter Property="Margin" Value="10,0,0,0"></Setter>
+        </Style>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                
+            </Grid.ColumnDefinitions>
+
+            <Label Text="ID" Grid.Column="0" Grid.Row="0" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Nombre" Grid.Column="0" Grid.Row="1" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Apellidos" Grid.Column="0" Grid.Row="2" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Fecha&#10; Nacimiento" Grid.Column="0" Grid.Row="3" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Direccion" Grid.Column="0" Grid.Row="4" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Telefono" Grid.Column="0" Grid.Row="5" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Departamento" Grid.Column="0" Grid.Row="6" Style="{StaticResource LabelsFormulario1}"></Label>
+
+            <Label Text="{Binding PersonaFormulario , Mode=OneWay}" Grid.Column="1" Grid.Row="0" Style="{StaticResource LabelsFormulario2}"></Label>
+            <Entry Placeholder="Nombre..." x:Uid="entryName" Grid.Column="1" Grid.Row="1" Style="{StaticResource EntryFormulario}"></Entry>
+            <Entry Placeholder="Apellidos..." x:Uid="entryApellidos" Grid.Column="1" Grid.Row="2" Style="{StaticResource EntryFormulario}"></Entry>
+            <DatePicker x:Uid="datepickerFechaNacimiento" Grid.Column="1" Grid.Row="3" Style="{StaticResource DatePickerFormulario}"></DatePicker>
+            <Entry Placeholder="Direccion..." x:Uid="entryDireccion" Grid.Column="1" Grid.Row="4" Style="{StaticResource EntryFormulario}"></Entry>
+            <Entry Keyboard="Numeric" Placeholder="Telefono..." x:Uid="entryTelefono" Grid.Column="1" Grid.Row="5" Style="{StaticResource EntryFormulario}"></Entry>
+            <Picker x:Uid="picker" Grid.Column="1" Grid.Row="6" Style="{StaticResource PickerFormulario}">
+                <Picker.Items>
+                    <x:String>Hola</x:String>
+                    <x:String>Adios</x:String>
+                </Picker.Items>
+            </Picker>
+
+        </Grid>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

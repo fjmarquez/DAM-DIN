@@ -21,28 +21,28 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\Departamentos.xaml">
+    <EmbeddedResource Update="Views\Departamentos\Departamentos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\FormularioDepartamentos.xaml">
+    <EmbeddedResource Update="Views\Departamentos\FormularioDepartamentos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\FormularioPersonas.xaml">
+    <EmbeddedResource Update="Views\Personas\FormularioPersonas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\MainMD.xaml">
+    <EmbeddedResource Update="Views\Menu MD\MainMD.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\MainMDDetail.xaml">
+    <EmbeddedResource Update="Views\Menu MD\MainMDDetail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\MainMDMaster.xaml">
+    <EmbeddedResource Update="Views\Menu MD\MainMDMaster.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Personas.xaml">
+    <EmbeddedResource Update="Views\Personas\Personas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

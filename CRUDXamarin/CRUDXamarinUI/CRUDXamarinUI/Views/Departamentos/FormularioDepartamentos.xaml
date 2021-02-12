@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDXamarinUI.Views.FormularioDepartamentos">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="LabelsFormulario1">
+            <Setter Property="HorizontalTextAlignment" Value="End"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+            <Setter Property="FontAttributes" Value="Bold"></Setter>
+        </Style>
+        <Style TargetType="Label" x:Key="LabelsFormulario2">
+            <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+        </Style>
+        <Style TargetType="Label" x:Key="EntryFormulario">
+            <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Margin" Value="10,5,10,10"></Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Label Text="ID" Grid.Column="0" Grid.Row="0" Style="{StaticResource LabelsFormulario1}"></Label>
+            <Label Text="Departamento" Grid.Column="0" Grid.Row="1" Style="{StaticResource LabelsFormulario1}"></Label>
+
+            <Label Text="IDUsuario" Grid.Column="1" Grid.Row="0" Style="{StaticResource LabelsFormulario2}"></Label>
+            <Entry Placeholder="Departamento..." x:Uid="entryDepartamento" Grid.Column="1" Grid.Row="1" Style="{StaticResource EntryFormulario}"></Entry>
+
+
+        </Grid>
+        
+        
+
+    </ContentPage.Content>
+</ContentPage>
