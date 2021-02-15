@@ -723,23 +723,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fjmarquez\\.nuget\\packages\\": {},
+    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj",
+      "projectUniqueName": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj",
       "projectName": "CRUDXamarinUI",
-      "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj",
-      "packagesPath": "C:\\Users\\fjmarquez\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\obj\\",
+      "projectPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj",
+      "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
+      "outputPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\fjmarquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -753,11 +753,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinBL\\CRUDXamarinBL.csproj": {
-              "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinBL\\CRUDXamarinBL.csproj"
+            "C:\\CRUDXamarin\\CRUDXamarinBL\\CRUDXamarinBL.csproj": {
+              "projectPath": "C:\\CRUDXamarin\\CRUDXamarinBL\\CRUDXamarinBL.csproj"
             },
-            "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinEntities\\CRUDXamarinEntities.csproj": {
-              "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinEntities\\CRUDXamarinEntities.csproj"
+            "C:\\CRUDXamarin\\CRUDXamarinEntities\\CRUDXamarinEntities.csproj": {
+              "projectPath": "C:\\CRUDXamarin\\CRUDXamarinEntities\\CRUDXamarinEntities.csproj"
             }
           }
         }
@@ -796,7 +796,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

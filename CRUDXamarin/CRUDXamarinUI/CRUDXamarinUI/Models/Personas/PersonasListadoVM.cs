@@ -1,5 +1,6 @@
 ﻿using CRUDXamarinBL.ListadosBL;
 using CRUDXamarinEntities;
+using CRUDXamarinUI.Utils;
 using CRUDXamarinUI.Views;
 using System;
 using System.Collections.Generic;
@@ -17,13 +18,14 @@ namespace CRUDXamarinUI.Models
 
         private ObservableCollection<clsPersona> listadoPersonas;
         private clsPersona personaSeleccionada;
+        private DelegateCommand commandNuevo;
 
         #endregion
 
 
         #region Propiedades publicas
 
-        //Propiedad publica de listadoPersonas
+        //Propiedad donde almacenaremos un listado de todas las personas
         public ObservableCollection<clsPersona> ListadoPersonas
         {
             get
@@ -32,7 +34,7 @@ namespace CRUDXamarinUI.Models
             }
         }
 
-        //Propiedad publica de personaSeleccionada
+        //Propiedad que hace referencia al item de listaPersonas(ListView) que hemos seleccionado
         public clsPersona PersonaSeleccionada
         {
             get
@@ -51,6 +53,19 @@ namespace CRUDXamarinUI.Models
                 }
             }
         }
+
+        //Command destinado a navegar hacia la vista FormularioPersonas
+        public DelegateCommand CommandNuevo
+        {
+            get
+            {
+                commandNuevo = new DelegateCommand(CommandNuevo_Execute);
+                return commandNuevo;
+            }
+        }
+
+        
+
         #endregion
 
 
@@ -60,7 +75,7 @@ namespace CRUDXamarinUI.Models
         /// </summary>
         public PersonasListadoVM()
         {
-            onInit();
+            //onInit();
 
         }
 
@@ -90,9 +105,17 @@ namespace CRUDXamarinUI.Models
 
 
         #region DelegateCommands
-
+        /// <summary>
+        /// Execute de commandNuevo, el cual navegara hacia la vista FormularioPersonas y pasara un objeto persona vacio/nuevo con sus atributos por defecto
+        /// </summary>
+        private void CommandNuevo_Execute()
+        {
+            personaSeleccionada = new clsPersona();
+            Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new FormularioPersonas(personaSeleccionada));
+        }
 
         #endregion
+
 
     }
 }

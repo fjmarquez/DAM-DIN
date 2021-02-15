@@ -2025,24 +2025,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fjmarquez\\.nuget\\packages\\": {},
+    "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.Android\\CRUDXamarinUI.Android.csproj",
+      "projectUniqueName": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.Android\\CRUDXamarinUI.Android.csproj",
       "projectName": "CRUDXamarinUI.Android",
-      "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.Android\\CRUDXamarinUI.Android.csproj",
-      "packagesPath": "C:\\Users\\fjmarquez\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.Android\\obj\\",
+      "projectPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.Android\\CRUDXamarinUI.Android.csproj",
+      "packagesPath": "C:\\Users\\Francisco J. Márquez\\.nuget\\packages\\",
+      "outputPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\fjmarquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Francisco J. Márquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2056,8 +2056,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj": {
-              "projectPath": "D:\\GitHub\\DIN\\DAM-DIN\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj"
+            "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj": {
+              "projectPath": "C:\\CRUDXamarin\\CRUDXamarinUI\\CRUDXamarinUI\\CRUDXamarinUI.csproj"
             }
           }
         }

@@ -133,7 +133,7 @@ namespace CRUDXamarinEntities
 
         public clsPersona(clsPersona persona)
         {
-
+            this.Id = persona.Id;
             this.Nombre = persona.nombre;
             this.Apellidos = persona.apellidos;
             this.FechaNacimiento = persona.fechaNacimiento;
