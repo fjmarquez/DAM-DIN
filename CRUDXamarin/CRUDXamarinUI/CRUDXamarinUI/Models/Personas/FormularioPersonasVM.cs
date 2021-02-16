@@ -23,7 +23,6 @@ namespace CRUDXamarinUI.Models.Personas
         private bool flagPersonaOriginal;
         private clsDepartamento departamentoPersonaFormulario;
         private ObservableCollection<clsDepartamento> listadoDepartamentos;
-        private Command commandGuardar;
         private DelegateCommand commandBorrar;
 
 
@@ -44,10 +43,7 @@ namespace CRUDXamarinUI.Models.Personas
                 {
                     this.personaFormulario = value;
                     NotifyPropertyChanged("PersonaFormulario");
-                    if(flagPersonaOriginal == false)
-                    {
-                        ((Command)commandGuardar).ChangeCanExecute();
-                    }
+                    CommandGuardar.RaiseCanExecuteChanged();
                     
 
                     if (flagPersonaOriginal == true)
@@ -90,14 +86,9 @@ namespace CRUDXamarinUI.Models.Personas
             }
         }
 
-        public Command CommandGuardar
-        {
-            get
-            {
-                commandGuardar = new Command(CommandGuardar_Execute);
-                return commandGuardar;
-            }
-        }
+        public DelegateCommand CommandGuardar { get; }
+
+        
 
         public DelegateCommand CommandBorrar
         {
@@ -120,6 +111,7 @@ namespace CRUDXamarinUI.Models.Personas
 
             onInit();
             flagPersonaOriginal = true;
+            CommandGuardar = new DelegateCommand(CommandGuardar_Execute, CommandGuardar_CanExecute);
 
         }
 
@@ -167,6 +159,11 @@ namespace CRUDXamarinUI.Models.Personas
 
         #region CommandGuardar
 
+        private bool CommandGuardar_CanExecute()
+        {
+            return false;
+        }
+
         private async void CommandGuardar_Execute()
         {
             //TODO llamar a PUT en la API con el objeto de la persona modificado
@@ -190,7 +187,7 @@ namespace CRUDXamarinUI.Models.Personas
 
         #endregion
 
-        #region CommandGuardar
+        #region CommandBorrar
 
         private async void CommandBorrar_Execute()
         {

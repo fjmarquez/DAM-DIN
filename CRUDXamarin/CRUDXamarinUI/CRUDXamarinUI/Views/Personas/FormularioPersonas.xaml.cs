@@ -46,7 +46,12 @@ namespace CRUDXamarinUI.Views
 
         private void btnGuardarPersona_Clicked(object sender, EventArgs e)
         {
-            viewmodelFormulario.CommandGuardar.Execute(null);
+            //viewmodelFormulario.CommandGuardar.Execute(null);
+        }
+
+        private void Entry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

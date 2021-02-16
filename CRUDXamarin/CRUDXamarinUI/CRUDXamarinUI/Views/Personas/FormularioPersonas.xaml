@@ -9,8 +9,8 @@
     </ContentPage.BindingContext>
 
     <ContentPage.ToolbarItems x:Uid="toolbarFormularioPersonas">
-        <ToolbarItem IconImageSource="/Assets/add.svg" x:Name="btnBorrarPersona" Text="Borrar" Clicked="btnBorrarPersona_Clicked"/>
-        <ToolbarItem IconImageSource="/Assets/add.svg" x:Name="btnGuardarPersona" Text="Guardar" Clicked="btnGuardarPersona_Clicked"/>
+        <ToolbarItem IconImageSource="/Assets/add.svg" x:Name="btnBorrarPersona" Text="Borrar" Clicked="btnBorrarPersona_Clicked" />
+        <ToolbarItem IconImageSource="/Assets/add.svg" x:Name="btnGuardarPersona" Text="Guardar" Command="{Binding CommandGuardar}" />
     </ContentPage.ToolbarItems>
     
     <ContentPage.Resources>
@@ -69,21 +69,26 @@
             <Label Text="Departamento" Grid.Column="0" Grid.Row="6" Style="{StaticResource LabelsFormulario1}"></Label>
 
             <Label Text="{Binding PersonaFormulario.Id , Mode=OneWay }" x:Name="labelIdPersona" Grid.Column="1" Grid.Row="0" Style="{StaticResource LabelsFormulario2}"></Label>
-            <Entry Placeholder="Nombre..." Text="{ Binding PersonaFormulario.Nombre, Mode=TwoWay}" x:Uid="entryName" Grid.Column="1" Grid.Row="1" Style="{StaticResource EntryFormulario}"></Entry>
+            <Entry TextChanged="Entry_TextChanged" Placeholder="Nombre..." Text="{ Binding PersonaFormulario.Nombre, Mode=TwoWay}" x:Uid="entryName" Grid.Column="1" Grid.Row="1" Style="{StaticResource EntryFormulario}"></Entry>
             <Entry Placeholder="Apellidos..." Text="{Binding PersonaFormulario.Apellidos, Mode=TwoWay}" x:Uid="entryApellidos" Grid.Column="1" Grid.Row="2" Style="{StaticResource EntryFormulario}"></Entry>
             <DatePicker x:Uid="datepickerFechaNacimiento" Date="{Binding PersonaFormulario.FechaNacimiento, Mode=TwoWay}" Grid.Column="1" Grid.Row="3" Style="{StaticResource DatePickerFormulario}"></DatePicker>
             <Entry Placeholder="Direccion..." x:Uid="entryDireccion" Text="{Binding PersonaFormulario.Direccion, Mode=TwoWay}" Grid.Column="1" Grid.Row="4" Style="{StaticResource EntryFormulario}"></Entry>
             <Entry Keyboard="Numeric" Placeholder="Telefono..." Text="{Binding PersonaFormulario.Telefono, Mode=TwoWay}" x:Uid="entryTelefono" Grid.Column="1" Grid.Row="5" Style="{StaticResource EntryFormulario}"></Entry>
-            <Picker x:Uid="picker" Grid.Column="1" Grid.Row="6" 
+            <StackLayout Grid.Column="1" Grid.Row="6">
+                
+            
+            <Picker x:Uid="picker"  
                     Margin="10,0,10,0"
                     Style="{StaticResource PickerFormulario}" 
                     ItemsSource="{Binding ListadoDepartamentos, Mode=OneWay}" 
                     ItemDisplayBinding="{Binding Departamento}"
                     SelectedItem="{Binding DepartamentoPersonaFormulario, Mode=TwoWay}">
-                
-            </Picker>
 
+            </Picker>
+            <Button Text="Guardar" Command="{Binding CommandGuardar}"></Button>
+            </StackLayout>
         </Grid>
+        
         
     </ContentPage.Content>
     

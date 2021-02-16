@@ -5,9 +5,8 @@ using System.Windows.Input;
 
 namespace CRUDXamarinUI.Utils
 {
-    public class DelegateCommand
+    public class DelegateCommand : ICommand
     {
-
         private readonly Action _execute;
 
 
@@ -121,6 +120,4 @@ namespace CRUDXamarinUI.Utils
 
         public event EventHandler CanExecuteChanged;
     }
-
 }
-
