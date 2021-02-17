@@ -64,18 +64,16 @@ namespace CRUDXamarinUI.Models
             }
         }
 
-        
-
         #endregion
 
 
         #region Constructores
+
         /// <summary>
         /// Constructor por defecto de la clase PersonasListadoVM
         /// </summary>
         public PersonasListadoVM()
         {
-            //onInit();
 
         }
 
@@ -84,10 +82,8 @@ namespace CRUDXamarinUI.Models
         /// </summary>
         public async void onInit()
         {
-            
             this.listadoPersonas = new ObservableCollection<clsPersona>(await new clsListadosPersonasBL().getListadoPersonasBL());
             NotifyPropertyChanged("ListadoPersonas");
-
         }
 
         #endregion

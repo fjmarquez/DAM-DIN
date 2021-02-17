@@ -8,26 +8,24 @@
         <viewmodelListado:PersonasListadoVM/>
     </ContentPage.BindingContext>
 
-
-
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="/Assets/add.svg" Text="Añadir" x:Name="btnNuevaPersona" Clicked="btnNuevaPersona_Clicked"/>
+        <ToolbarItem Text="Añadir" x:Name="btnNuevaPersona" Command="{Binding CommandNuevo}"/>
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
         
         <StackLayout>
  
-            <ListView x:Name="listaPersonas" 
+            <ListView x:Name="listaPersonas"
                       ItemsSource="{Binding ListadoPersonas, Mode=OneWay}"
                       SelectedItem="{Binding PersonaSeleccionada}"
                       >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="10,10,0,10">
-                                <Label Text="{Binding Nombre}" TextColor="black" FontSize="18"/>
-                                <Label Text="{Binding Apellidos}" TextColor="black" FontSize="18"/>
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center" BackgroundColor="Transparent" HeightRequest="150" Margin="10,0,0,0">
+                                <Label VerticalTextAlignment="Center" Text="{Binding Nombre}" TextColor="black" FontSize="18"/>
+                                <Label VerticalTextAlignment="Center" Text="{Binding Apellidos}" TextColor="black" FontSize="18"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

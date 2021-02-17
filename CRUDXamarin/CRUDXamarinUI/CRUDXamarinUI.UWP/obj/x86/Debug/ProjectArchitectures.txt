@@ -1,1 +1,1 @@
-D:\GitHub\DIN\DAM-DIN\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI.UWP\CRUDXamarinUI.UWP.csproj;x86
+C:\CRUDXamarin\CRUDXamarinUI\CRUDXamarinUI.UWP\CRUDXamarinUI.UWP.csproj;x86

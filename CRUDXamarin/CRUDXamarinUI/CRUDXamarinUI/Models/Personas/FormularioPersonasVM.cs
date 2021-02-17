@@ -23,8 +23,6 @@ namespace CRUDXamarinUI.Models.Personas
         private bool flagPersonaOriginal;
         private clsDepartamento departamentoPersonaFormulario;
         private ObservableCollection<clsDepartamento> listadoDepartamentos;
-        private DelegateCommand commandBorrar;
-
 
         #endregion
 
@@ -43,9 +41,8 @@ namespace CRUDXamarinUI.Models.Personas
                 {
                     this.personaFormulario = value;
                     NotifyPropertyChanged("PersonaFormulario");
-                    CommandGuardar.RaiseCanExecuteChanged();
                     
-
+                    //Con esto me aseguro que la variable personaOriginal no cambia
                     if (flagPersonaOriginal == true)
                     {
                         this.personaOriginal = new clsPersona(value);
@@ -68,10 +65,10 @@ namespace CRUDXamarinUI.Models.Personas
                 {
                     this.departamentoPersonaFormulario = value;
                     NotifyPropertyChanged("DepartamentoPersonaFormulario");
-                    //((Command)commandGuardar).ChangeCanExecute();
 
                     this.personaFormulario.IdDepartamento = this.departamentoPersonaFormulario.Id;
                     NotifyPropertyChanged("PersonaFormulario");
+                    CommandGuardar.RaiseCanExecuteChanged();
 
                 }
             }
@@ -86,18 +83,11 @@ namespace CRUDXamarinUI.Models.Personas
             }
         }
 
+        //Command destinado a guardar los cambios en una persona o crear una persona nueva
         public DelegateCommand CommandGuardar { get; }
 
-        
-
-        public DelegateCommand CommandBorrar
-        {
-            get
-            {
-                commandBorrar = new DelegateCommand(CommandBorrar_Execute);
-                return commandBorrar;
-            }
-        }
+        //Command destinado a eliminar la persona que estamos visualizando en el formulario
+        public DelegateCommand CommandBorrar { get; }
 
         #endregion
 
@@ -110,8 +100,12 @@ namespace CRUDXamarinUI.Models.Personas
         {
 
             onInit();
+
             flagPersonaOriginal = true;
+
+            //Inicializamos los commands
             CommandGuardar = new DelegateCommand(CommandGuardar_Execute, CommandGuardar_CanExecute);
+            CommandBorrar = new DelegateCommand(CommandBorrar_Execute);
 
         }
 
@@ -121,19 +115,16 @@ namespace CRUDXamarinUI.Models.Personas
         public async void onInit()
         {
 
+            //Obtenemos un listado con todos los objetos departamentos
             this.listadoDepartamentos = new ObservableCollection<clsDepartamento>(await new clsListadosDepartamentosBL().getListadoDepartamentosBL());
             NotifyPropertyChanged("ListadoDepartamentos");
-
-            /*
-            this.departamentoPersonaFormulario = new clsDepartamento(await new clsListadosDepartamentosBL().getDepartamentoPorIDBL(personaFormulario.IdDepartamento));
-            NotifyPropertyChanged("DepartamentoPersonaFormulario");
-            */
             
             //Le asignamos un valor a departamentoPersonaFormulario dependiendo del idDepartamento de personaFormulario
             foreach (clsDepartamento d in listadoDepartamentos)
             {
                 if(d.Id == personaFormulario.IdDepartamento)
                 {
+                    //Definimos el valor que tendra deparamentoPersonaFormulario en funcion del idDepartamento de personaFormulario
                     departamentoPersonaFormulario = d;
                     NotifyPropertyChanged("DepartamentoPersonaFormulario");
                     break;
@@ -154,26 +145,76 @@ namespace CRUDXamarinUI.Models.Personas
 
         #endregion
 
-
         #region DelegateCommands
 
         #region CommandGuardar
 
+        /// <summary>
+        /// Metodo Can_Execute del commandGuardar, comprobara que la persona ha sido modificada y devolvera true o false
+        /// en funcion de eso
+        /// </summary>
+        /// <returns></returns>
         private bool CommandGuardar_CanExecute()
         {
-            return false;
+
+            bool btnGuardarEstado = false;
+            if(personaFormulario != null && personaOriginal != null)
+            {
+                if(personaFormulario.Id != 0)
+                {
+                    if (personaFormulario.Nombre != personaOriginal.Nombre ||
+                        personaFormulario.Apellidos != personaOriginal.Apellidos ||
+                        personaFormulario.Direccion != personaOriginal.Direccion ||
+                        personaFormulario.FechaNacimiento != personaOriginal.FechaNacimiento ||
+                        personaFormulario.Telefono != personaOriginal.Telefono ||
+                        personaFormulario.IdDepartamento != personaOriginal.IdDepartamento)
+                    {
+                        btnGuardarEstado = true;
+                    }
+                }
+                else
+                {
+                    if (personaFormulario.Nombre.Length > 3    &&
+                        personaFormulario.Apellidos.Length > 3 &&
+                        personaFormulario.Direccion.Length > 3 &&
+                        personaFormulario.Telefono.Length >= 9)
+                    {
+                        btnGuardarEstado = true;
+                    }
+                }
+                
+
+            }
+            
+            return btnGuardarEstado;
         }
 
+        /// <summary>
+        /// Metodo Execute del commmandGuardar, dependiendo del id de personaFormuario insertara una nueva persona o 
+        /// modificara una existente, al finalizar mostrara un dialogo informando sobre la accion realizada o si ha ocurrido algun error
+        /// </summary>
         private async void CommandGuardar_Execute()
         {
-            //TODO llamar a PUT en la API con el objeto de la persona modificado
-            //throw new NotImplementedException();
+            HttpStatusCode statusCode;
 
-            HttpStatusCode statusCode = await new clsHandlersPersonasBL().actualizarPersonaBL(PersonaFormulario);
+            if (personaFormulario.Id == 0)
+            {
+                //Si personaFormulario.id es 0, estaremos creando una nueva persona
+                statusCode = await new clsHandlersPersonasBL().insertarPersonaBL(personaFormulario);
+            }
+            else
+            {
+                //Si personaFormulario.id es distinto de 0, estaremos modificando una persona existente
+                statusCode = await new clsHandlersPersonasBL().actualizarPersonaBL(personaFormulario);
+            }
+            
 
             if(statusCode == HttpStatusCode.Created)
             {
                 await Application.Current.MainPage.DisplayAlert("Editar Persona", "Persona modificada con exito", "OK");
+            }else if(statusCode == HttpStatusCode.OK)
+            {
+                await Application.Current.MainPage.DisplayAlert("Crear Persona", "Persona creada con exito", "OK");
             }
             else
             {
@@ -189,15 +230,17 @@ namespace CRUDXamarinUI.Models.Personas
 
         #region CommandBorrar
 
+        /// <summary>
+        /// Metodo Execute del commandBorrar, eliminara a personaFormulario mediante la API y volvera a la lista de personas (recargandola)
+        /// </summary>
         private async void CommandBorrar_Execute()
         {
+
             String msgDialog = "¿Desea eliminar a " + personaFormulario.Nombre + " " + personaFormulario.Apellidos + "?";
             bool answer = await Application.Current.MainPage.DisplayAlert("Eliminar persona", msgDialog, "Borrar", "Cancelar");
 
             if(answer == true)
             {
-
-                //Llamada a delete de la API con el id de la persona y navegacion hacia atras
 
                 HttpStatusCode statusCode = await new clsHandlersPersonasBL().borrarPersonaBL(personaFormulario.Id);
 
@@ -218,6 +261,21 @@ namespace CRUDXamarinUI.Models.Personas
         }
 
         #endregion
+
+        #endregion
+
+        #region Utilidades
+
+        /// <summary>
+        /// Esta funcion sustituye el funcionamiento de un evento, cada vez que se llame desde el codigo behind 
+        /// de la vista se ejecutara el CanExecute del commandGuardar
+        /// </summary>
+        public void eventoTextChanged()
+        {
+
+            CommandGuardar.RaiseCanExecuteChanged();
+
+        }
 
         #endregion
 

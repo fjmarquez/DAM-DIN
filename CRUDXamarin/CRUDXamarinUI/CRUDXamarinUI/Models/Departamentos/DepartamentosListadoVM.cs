@@ -1,5 +1,6 @@
 ﻿using CRUDXamarinBL.ListadosBL;
 using CRUDXamarinEntities;
+using CRUDXamarinUI.Utils;
 using CRUDXamarinUI.Views;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,6 @@ namespace CRUDXamarinUI.Models
         private clsDepartamento departamentoSeleccionado;
 
         #endregion
-
 
         #region Propiedades publicas
 
@@ -43,27 +43,24 @@ namespace CRUDXamarinUI.Models
                 if (this.departamentoSeleccionado != value && value != null)
                 {
                     this.departamentoSeleccionado = value;
-                    //Navegamos hacia la vista FormularioPersonas
-                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new FormularioDepartamentos(departamentoSeleccionado));
-                    this.departamentoSeleccionado = null;
                 }
             }
         }
+
         #endregion
 
-
         #region Constructores
+
         /// <summary>
-        /// Constructor por defecto de la clase PersonasListadoVM
+        /// Constructor por defecto de la clase DepartamentosListadoVM
         /// </summary>
         public DepartamentosListadoVM()
         {
-            onInit();
 
         }
 
         /// <summary>
-        /// Funcion asincrona donde inicializamos listadoPersonas, a traves de la capa BL
+        /// Funcion asincrona donde inicializamos listadoDepartamentos, a traves de la capa BL
         /// </summary>
         public async void onInit()
         {
