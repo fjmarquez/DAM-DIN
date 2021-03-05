@@ -3,7 +3,6 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Departamento" />
     <RootPropertyPathName Name="Id" />
-    <RootPropertyPathName Name="Apellidos" />
     <RootPropertyPathName Name="Nombre" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>

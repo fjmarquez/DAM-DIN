@@ -1,0 +1,5 @@
+D:\GitHub\DIN\DAM-DIN\Examen2Trimestre\Examen2TrimestreBL\Examen2TrimestreBL.csproj;x86
+D:\GitHub\DIN\DAM-DIN\Examen2Trimestre\Examen2TrimestreDAL\Examen2TrimestreDAL.csproj;x86
+D:\GitHub\DIN\DAM-DIN\Examen2Trimestre\Examen2TrimestreEntities\Examen2TrimestreEntities.csproj;x86
+D:\GitHub\DIN\DAM-DIN\Examen2Trimestre\Examen2TrimestreEntities\Examen2TrimestreEntities.csproj;x86
+D:\GitHub\DIN\DAM-DIN\Examen2Trimestre\Examen2TrimestreUI\Examen2TrimestreUI.csproj;x86

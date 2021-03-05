@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>FF5858F8E7382C352205EECEC309FB16E98FEBB2B32CC41ED8EFDB4A1B81128C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>02A52BFC980BDE4F385142063FD3980D148B1F1372BB1302BF74403C259C7C77</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>98cf3d39-7115-4f4a-90f6-6f828a09a899_1.0.0.0_x86__p64p5j1n6604j</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>98cf3d39-7115-4f4a-90f6-6f828a09a899_p64p5j1n6604j!App</RegisteredUserModeAppID>
     <RegisteredPackageID>98cf3d39-7115-4f4a-90f6-6f828a09a899</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-25T12:22:39.839</Modified>
+      <Modified>2021-03-02T08:32:32.067</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\11CRUDUWP-UI.exe">
       <PackagePath>entrypoint\11CRUDUWP-UI.exe</PackagePath>
-      <Modified>2021-01-25T12:22:37.660</Modified>
+      <Modified>2021-03-02T08:32:30.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-BL.dll">
       <PackagePath>11CRUDUWP-BL.dll</PackagePath>
-      <Modified>2021-01-25T12:22:28.892</Modified>
+      <Modified>2021-03-02T08:32:21.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-Entities\bin\x86\Debug\11CRUDUWP-Entities.dll">
       <PackagePath>11CRUDUWP-Entities.dll</PackagePath>
-      <Modified>2021-01-25T12:22:25.116</Modified>
+      <Modified>2021-02-10T08:45:46.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-BL\bin\x86\Debug\11CRUDUWP-DAL.dll">
       <PackagePath>11CRUDUWP-DAL.dll</PackagePath>
-      <Modified>2021-01-25T12:22:27.499</Modified>
+      <Modified>2021-02-10T08:45:46.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -60,65 +60,65 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-11-25T09:21:15.306</Modified>
+      <Modified>2021-02-10T08:45:46.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-11-25T09:21:15.303</Modified>
+      <Modified>2021-02-10T08:45:46.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-25T09:21:15.304</Modified>
+      <Modified>2021-02-10T08:45:46.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-25T09:21:15.304</Modified>
+      <Modified>2021-02-10T08:45:46.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-25T09:21:15.304</Modified>
+      <Modified>2021-02-10T08:45:46.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-25T09:21:15.304</Modified>
+      <Modified>2021-02-10T08:45:46.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-25T09:21:15.305</Modified>
+      <Modified>2021-02-10T08:45:46.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-25T09:21:15.305</Modified>
+      <Modified>2021-02-10T08:45:46.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\11CRUDUWP-UI.xr.xml">
       <PackagePath>11CRUDUWP-UI.xr.xml</PackagePath>
-      <Modified>2020-12-03T09:41:14.857</Modified>
+      <Modified>2021-03-02T08:32:30.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-25T12:22:37.373</Modified>
+      <Modified>2021-03-02T08:32:30.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\Views\departamentos.xbf">
       <PackagePath>Views\departamentos.xbf</PackagePath>
-      <Modified>2021-01-25T12:22:37.373</Modified>
+      <Modified>2021-03-02T08:32:30.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-01-25T12:22:37.373</Modified>
+      <Modified>2021-03-02T08:32:30.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\Views\personas.xbf">
       <PackagePath>Views\personas.xbf</PackagePath>
-      <Modified>2021-01-25T12:22:37.372</Modified>
+      <Modified>2021-03-02T08:32:30.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\Views\welcome.xbf">
       <PackagePath>Views\welcome.xbf</PackagePath>
-      <Modified>2021-01-25T12:22:37.374</Modified>
+      <Modified>2021-03-02T08:32:30.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,11 +126,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-25T12:22:38.303</Modified>
+      <Modified>2021-03-02T08:32:31.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\DIN\DAM-DIN\11CRUDUWP\11CRUDUWP-UI\bin\x86\Debug\Core\11CRUDUWP-UI.exe">
       <PackagePath>11CRUDUWP-UI.exe</PackagePath>
-      <Modified>2021-01-25T12:22:39.809</Modified>
+      <Modified>2021-03-02T08:32:32.033</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

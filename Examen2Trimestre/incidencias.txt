@@ -1,0 +1,5 @@
+Por hacer:
+
+-Animacion para mover el progressbar
+-Efecto cronometro en el textblock destinado a mostrar la temperatura en numeros
+-Controlar cuando obtenemos un sql.null en la capa dal y en caso de tener null mostrar la img de interrogacion en lugar del numero.
